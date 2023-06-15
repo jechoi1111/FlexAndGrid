@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CSS Flex</title>
+    <link rel="stylesheet" href="default.css">
+    <style>
+        /*.flex-container {*/
+            /*display: flex;*/
+            /*display: inline-flex;*/
+
+            /*flex-direction: row;*/
+            /*flex-direction: row-reverse;*/
+            /*flex-direction: column;*/
+            /*flex-direction: column-reverse;*/
+
+            /*flex-wrap: wrap;*/
+
+            /*flex-flow: row wrap;*/
+        /*}*/
+
+        /*.flex-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (min-width: 600px) {
+            .flex-container {
+                flex-direction: row;
+            }
+            .flex-item {
+                flex: 1;
+            }
+
+        }*/
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            /*justify-content: center;*/
+            /*align-items: center;*/
+            height: 300px;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">AAAAA</div>
+        <div class="flex-item">BBBBB</div>
+        <div class="flex-item">CCCCC</div>
+    </div>
+    this is test
+</body>
+</html>
