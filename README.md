@@ -24,7 +24,7 @@ ex) row(기본), column, row-reverse, column-reverse
 2. ### row-reverse
     아이템들이 역순으로 가로 배치
 3. ### column
-    아이템들이 열(세로) 방행 배치
+    아이템들이 열(세로) 방향 배치
 4. ### column-reverse
     아이템들이 역순으로 세로 배치
 
